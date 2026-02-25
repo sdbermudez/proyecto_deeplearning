@@ -26,7 +26,7 @@ jobs:
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: _build/html
+          path: _build/site/public
 
   deploy:
     needs: build
