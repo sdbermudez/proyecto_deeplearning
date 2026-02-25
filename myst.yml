@@ -18,4 +18,4 @@ site:
      logo: images.png
   nav:
     - title: Análisis Descriptivo
-      url: /descriptivo.ipynb
+      url: /proyecto_deeplearning/descriptivo.ipynb
