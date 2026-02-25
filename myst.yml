@@ -1,0 +1,19 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: b725b7f3-d7b2-4c24-9a35-30ab97f3b363
+  title: Proyecto deeplearning
+  # description:
+  # keywords: []
+  # authors: []
+  github: https://github.com/sdbermudez/proyecto_deeplearning
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+site:
+  template: book-theme
+  options:
+     logo: images.png
+nav:
+  - title: Inicio
+    children:
+      - file: Descriptivo.md
+      - file: descriptivo.ipynb

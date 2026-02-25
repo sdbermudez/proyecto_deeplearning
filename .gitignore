@@ -1,0 +1,17 @@
+# .gitignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.venv/
+.ENV/
+ENV/
+*.sqlite3
+*.db
+*.log
+.DS_Store
+
+# MyST build outputs
+_build
