@@ -1,21 +1,22 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  id: b725b7f3-d7b2-4c24-9a35-30ab97f3b363
-  title: Proyecto deeplearning
-  # description:
-  # keywords: []
-  # authors: []
+  id: e408a88b-4a16-4c0b-8b0b-8c3af6433a77
+  title: Proyecto Deeplearning
+  description: Proyecto de analisis de la BVC con deeplearning
+  keywords: 
+     - Deeplearning
+     - BVC
+     - sentimiento
+  authors:
+    - Samuel Bermudez
+    - Mariana Franco
+    - Danier Conde
   github: https://github.com/sdbermudez/proyecto_deeplearning
-  toc:
-    - file: index.md
+  toc: 
     - file: descriptivo.ipynb
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 site:
   template: book-theme
   options:
-     baseurl: /proyecto_deeplearning
-     logo: images.png
-  nav:
-    - title: Análisis Descriptivo
-      url: /proyecto_deeplearning/descriptivo.ipynb
+    logo: images.png
