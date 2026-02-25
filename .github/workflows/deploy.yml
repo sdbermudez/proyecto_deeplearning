@@ -2,7 +2,7 @@ name: Deploy Myst Site
 
 on:
   push:
-    branches: [main]
+    branches: [gh-pages]
 
 permissions:
   contents: read
