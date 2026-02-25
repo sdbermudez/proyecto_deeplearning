@@ -23,8 +23,6 @@ jobs:
       - run: pip install mystmd
 
       - run: myst build --site
-        env:
-            BASE_URL: /proyecto_deeplearning
 
       - uses: actions/upload-pages-artifact@v4
         with:

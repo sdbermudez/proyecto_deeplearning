@@ -14,8 +14,7 @@ project:
 site:
   template: book-theme
   options:
-     baseurl: /proyecto_deeplearning
      logo: images.png
   nav:
     - title: Análisis Descriptivo
-      url: /proyecto_deeplearning/descriptivo.ipynb
+      url: /descriptivo.ipynb
