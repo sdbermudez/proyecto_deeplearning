@@ -10,8 +10,8 @@ project:
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 site:
   template: book-theme
-  baseurl: /proyecto_deeplearning
   options:
+     baseurl: /proyecto_deeplearning
      logo: images.png
 nav:
   - title: Inicio
