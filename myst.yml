@@ -13,8 +13,6 @@ site:
   options:
      baseurl: /proyecto_deeplearning
      logo: images.png
-nav:
-  - title: Inicio
-    children:
-      - file: Descriptivo.md
-      - file: descriptivo.ipynb
+  nav:
+    - title: Análisis Descriptivo
+      url: /descriptivo.ipynb
