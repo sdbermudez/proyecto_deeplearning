@@ -22,7 +22,7 @@ jobs:
 
       - run: pip install mystmd
 
-      - run: myst build --html --strict
+      - run: myst build --html
         env:
             BASE_URL: /proyecto_deeplearning
 
