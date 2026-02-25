@@ -20,13 +20,13 @@ jobs:
         with:
           python-version: 3.11
 
-      - run: pip install jupyter-book
+      - run: pip install mystmd
 
-      - run: jupyter-book build .
+      - run: myst build --html
 
       - uses: actions/upload-pages-artifact@v4
         with:
-          path: _build/html
+          path: _build/site
 
   deploy:
     needs: build
