@@ -10,10 +10,6 @@ project:
   toc:
     - file: index.md
     - file: descriptivo.ipynb
-  exports:
-    - format: html
-      output: site
-      path: index.md
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 site:
   template: book-theme
@@ -21,5 +17,5 @@ site:
      baseurl: /proyecto_deeplearning
      logo: images.png
   nav:
-    - title: Home
-      url : /
+    - title: Análisis Descriptivo
+      url: /proyecto_deeplearning/descriptivo.ipynb
