@@ -24,9 +24,11 @@ jobs:
 
       - run: jupyter-book build --all
 
+      - run: touch _build/html/.nojekyll
+
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: _build/site
+          path: _build/html
 
   deploy:
     needs: build
