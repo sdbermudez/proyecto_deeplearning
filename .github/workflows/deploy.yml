@@ -22,13 +22,11 @@ jobs:
 
       - run: pip install jupyter-book
 
-      - run: jupyter-book build --all --builder myst
-        env:
-          MYST_STATIC_SITE: true
+      - run: jupyter-book build --all
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v4
         with:
-          path: _build/site/public
+          path: _build/site
 
   deploy:
     needs: build
